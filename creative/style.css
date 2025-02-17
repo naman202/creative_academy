@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 60px;
+    /* border: black 1px solid; */
+    display: flex;
+    align-items: center;
+    background-color: #706c8142;
+}
+
+.logo1 img{
+    height: 45px;
+    /* margin: 10px 0 0 20px; */
+    /* margin-right: 20px; */
+    padding-left: 20px;
+}
+
+.more-option{
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 50px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-color: white; */
+    border: black 1px solid;
+}
+
+.btn-buy{
+    width: 70px;
+    margin-right: 10px;
+}
+
+.contact{
+    width: 100%;
+    height: 50px;
+    border: rgb(182, 182, 182) 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.menu-option{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.menu-bar{
+    /* position: relative; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: black 1px solid; */
+}
+
+
+.academy-logo img{
+    height: 40px;
+    /* margin-left: 20px; */
+}
+
+.academy-logo span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu ul{
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 18px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#course{
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #754ffe63;
+}
+
+#ebook{
+    width: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#more{
+    width: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.search-box{
+    width: 300px;
+    height: 50px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #754FFE;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+.search-box input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+.home-img img{
+    width: 100%;
+    position: absolute;
+}
+
+.box-container{
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e798a62;
+    border-radius: 15px;
+}
+
+.course-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.course-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.course-card1 {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.course-card1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.course-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.compare-btn {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
